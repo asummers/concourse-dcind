@@ -21,6 +21,7 @@ RUN apk --update --no-cache add \
         py-pip \
         iptables \
         ca-certificates \
+        ssh \
         util-linux \
         && \
     apk upgrade && \
